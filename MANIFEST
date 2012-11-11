@@ -8,5 +8,8 @@ t/02_extdirect.t
 t/03_cookies.t
 t/04_classes.t
 t/pod.t
+t/lib/RPC/ExtDirect/Client/Foo.pm
+t/lib/RPC/ExtDirect/Server/Foo.pm
+
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)

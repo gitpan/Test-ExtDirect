@@ -62,7 +62,7 @@ our @EXPORT = qw(
     poll_extdirect_ok
 );
 
-our $VERSION = '0.21';
+our $VERSION = '0.22';
 $VERSION = eval $VERSION;
 
 our ($SERVER_PID, $SERVER_PORT);
