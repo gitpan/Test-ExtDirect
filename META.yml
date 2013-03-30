@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,10 +19,10 @@ no_index:
     - inc
 requires:
   Clone: 0
-  RPC::ExtDirect::Client: 0.2
+  RPC::ExtDirect::Client: 0.22
   RPC::ExtDirect::Server: 0
   Test::More: 0
 resources:
   bugtracker: http://github.com/nohuhu/Test-ExtDirect/issues
   repository: http://github.com/nohuhu/Test-ExtDirect
-version: 0.22
+version: 0.24
