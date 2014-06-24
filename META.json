@@ -22,7 +22,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "ExtUtils::MakeMaker" : "0",
+            "Test::More" : "0.82"
          }
       },
       "configure" : {
@@ -32,19 +33,20 @@
       },
       "runtime" : {
          "requires" : {
-            "RPC::ExtDirect::Client" : "1.00",
-            "RPC::ExtDirect::Server" : "1.00"
+            "RPC::ExtDirect::Client" : "1.02",
+            "RPC::ExtDirect::Server" : "1.01",
+            "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://github.com/nohuhu/Test-ExtDirect/issues"
+         "web" : "https://github.com/nohuhu/Test-ExtDirect/issues"
       },
       "repository" : {
-         "url" : "http://github.com/nohuhu/Test-ExtDirect"
+         "url" : "https://github.com/nohuhu/Test-ExtDirect"
       }
    },
-   "version" : "1.00"
+   "version" : "1.01"
 }
